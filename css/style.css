@@ -5,7 +5,7 @@ body{
 }
 
 .header .container{
-    margin-bottom: 7%;
+    margin-bottom: 6%;
     
 }
 /* .nav-container{
@@ -104,12 +104,13 @@ li .nav-link{
 
 /* Our survices section */
 .our-services-section .container{
-    margin-bottom: 7%;
+    margin-bottom: 2%;
     
 }
 .our-services-section .card-img-top{
     width: 20%;
     padding-top: 50px;
+    height: 100px;
 }
 
 .our-services-section .card-1 .card-img-top{
@@ -304,6 +305,7 @@ li .nav-link{
     margin-bottom: 7%;
     box-shadow: 5px 5px 20px gray;
     border-radius: 10px;
+    height: 50vh;
 }
 .contact-section{
     color: #000000;
@@ -337,6 +339,9 @@ li .nav-link{
     border-radius: 10px;
 }
 
+.setup-contact-h3{
+    margin: 80px 0px 60px 0px;
+}
 
 
 
@@ -400,3 +405,7 @@ footer .row{
     padding: 0!important;
     
 }
+
+
+
+
