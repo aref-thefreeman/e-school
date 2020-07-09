@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    
 }
 
 .header .container{
@@ -174,7 +175,8 @@ li .nav-link{
     border-radius: 20px;
     color:#fff;
     border: none;
-    margin-top: 7%;
+    margin-top: 2%;
+    height: 6%;
 }
 
 .buy-course-button:hover{
@@ -197,13 +199,15 @@ li .nav-link{
     color: #585859;
 }
 
+
+
 .icon-image{
-    width: 6%;
+    width: 20px;
+    height: 20px;
+    
 }
 
-.icon-para-2{
-    margin-left: 20%;
-}
+
 .align-icon-para{
     margin-top: 10%;
 }
@@ -212,11 +216,6 @@ li .nav-link{
     width: 90%;
     margin: 6%;
 }
-
-
-
-
-
 
 
 /* Testimonial Section */
@@ -258,22 +257,60 @@ li .nav-link{
 }
 
 
+/* Awards section */
+
+.section-awards .container{
+    margin-bottom: 7%;
+    height: 200px;
+    /* border: 5px solid rgb(243, 237, 237); */
+    box-shadow: 5px  5px 20px gray;
+    border-radius: 10px;
+    height: 600px;
+
+    
+}
+.section-awards img{
+    /* border: 10px solid black; */
+    margin: 0 auto;
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px gray;
+    
+}
+.achievements-h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 50px;
+    border: none;
+    text-transform: uppercase;
+
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: rgb(197, 182, 182);
+}
+
+
 
 /* Contact  Section*/
 
 .contact-section .container{
     margin-bottom: 7%;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 10px;
 }
 .contact-section{
-    color: #fff;
+    color: #000000;
+    
 }
 
-.contact-align{
-    margin-top: 8%;;
-}
-.update-h6{
-    color: white;
-}
+
 
 #contact{
     
@@ -281,13 +318,12 @@ li .nav-link{
 }
 
 .submit-button{
-    
     width: 100px;
     margin-left: 50px;
-    background: #e4eceb;
+    background: #21B573;
     padding: 5px 6px;
     border-radius: 10px;
-    color: #333;
+    color: #fff;
     border: none;
     margin-top: 5px;
 }
@@ -297,9 +333,16 @@ li .nav-link{
 }
 
 .orange-bg{
-    background-image: linear-gradient(to bottom, #0da360, #65a085);
+    
     border-radius: 10px;
 }
+
+
+
+
+
+
+
 
 
 /* Footer Section */
@@ -340,14 +383,14 @@ li .nav-link{
 }
 
 
-.col-md-2{
+/* .col-md-2{
     
-    margin-left: -10px;
-    padding-left: -5px;
+    margin-left: -20px;
+    padding-left: -10px;
 
-}
+} */
 .col-md-6{
-    padding-right: 20px;
+    padding-right: 50px;
 }
 footer .row{
     /* background-color: orangered; */
